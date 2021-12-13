@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(9, 20, 19);
+    color: aqua;
+}
+.head{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.turn1{
+    text-align: center;
+    margin:auto auto;
+}
+
+.btn
+{
+    margin-left: 10px;
+    
+}
+.contain{
+    margin-top: 35px;
+    /* text-align: center; */
+    display:grid ;
+    justify-content: center;
+    /* display: grid;*/
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;  
+}
+
+
+.boxcont{
+    color: aquamarine;
+    cursor: pointer;
+    display: inline-block;
+    border:1px solid wheat;
+    padding: 20px 20px;
+     
+    font-size: 50px; 
+}
+
+/* .boxcont:hover{
+    background-color: brown;
+} */
+
+
+.winner{
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+   
+}
+/* .wins{
+    padding: 10px;
+    border:6px solid orange;
+    border-radius: 2px;
+    animation: winsani 30s  infinite ;
+}
+ @keyframes winsani{
+     0% {border:8px solid orange; padding:25px ;}
+     25% {border:10px solid orange; padding:27px ; font-size: medium;}
+     50%  {border:12px solid orange; padding:29px; font-size: larger;}
+     100% {border:14px solid orange; padding:31px; font-size: large;} 
+ } */
